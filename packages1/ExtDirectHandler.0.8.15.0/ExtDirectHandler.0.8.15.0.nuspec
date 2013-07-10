@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ExtDirectHandler</id>
+    <version>0.8.15.0</version>
+    <authors>Gian Marco Gherardi</authors>
+    <owners>Gian Marco Gherardi</owners>
+    <licenseUrl>https://github.com/gimmi/extdirecthandler/raw/master/LICENSE</licenseUrl>
+    <projectUrl>http://gimmi.github.com/extdirecthandler/</projectUrl>
+    <iconUrl>http://gimmi.github.com/extdirecthandler/extdirect-icon.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ext Direct router implementation for ASP.NET</description>
+    <tags>web ext extjs javascript js asp.net aspnet router rpc json remoting ajax ria html webservice handler direct extdirect ext.direct mvc</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.5.10" />
+    </dependencies>
+    <references>
+      <reference file="ExtDirectHandler.dll" />
+    </references>
+  </metadata>
+</package>
