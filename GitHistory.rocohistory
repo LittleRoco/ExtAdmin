@@ -1,0 +1,9 @@
+July 10,2013 Wed UTC+08:00
+==========================
+Sumbit Code
+----------------------------------------
+cp /usr/code/ExtAdmin/*.* /usr/git/ExtAdmin/*.*
+chmod 4777 /usr/git/ExtAdmin/*.*
+rm -rf *.tmp
+
++++++++++++++++++++++++++++
