@@ -6,7 +6,7 @@ Inner Verion:1
 Copyright Weslie@Roco 2009~2013 All Rights Reserved.
 Contact us:
 Windows ID:weslie@outloook.com
-Skype:weslie@outlok.com
+Skype:weslie@outlook.com
 Facebook:Weslie(http://facebook.com/weslie3508/)
 Twitter:WeslieTheGoat(http://twitter.com/WeslieTheGoat/)
 
