@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="login.aspx" />
     <Content Include="ext-4.2.1.883\.sencha\workspace\plugin.xml" />
     <Content Include="ext-4.2.1.883\bootstrap.js" />
@@ -7097,12 +7098,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\JSONObject.cs" />
+    <Compile Include="BLL\DataBaseManager.cs" />
+    <Compile Include="BLL\LoginManager.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="handler\database.ashx.cs">
       <DependentUpon>database.ashx</DependentUpon>
@@ -7117,10 +7123,12 @@
     <Compile Include="handler\login.ashx.cs">
       <DependentUpon>login.ashx</DependentUpon>
     </Compile>
+    <Compile Include="PageInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="DAL\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ext-4.2.1.883\.sencha\workspace\codegen" />
