@@ -5,8 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>ExtAdmin</title>
-    <link href="ext-4.2.1.883/resources/css/ext-all.css" rel="stylesheet" type="text/css" />
+    <%--<link href="ext-4.2.1.883/resources/css/ext-all.css" rel="stylesheet" type="text/css" />--%>
+    <link href="ext-4.2.1.883/resources/css/ext-all-neptune.css" rel="stylesheet" type="text/css" />
     <script src="ext-4.2.1.883/ext-all.js" type="text/javascript"></script>
+    <script type="text/javascript" src="rpc"></script>
     <script src="Scripts/MainFrame.js" type="text/javascript"></script>
 </head>
 <body>
